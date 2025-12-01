@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+transportasi-box {
+    display: flex;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    text-align: right;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    align-content: center;
+    border-color: black;
+}
+
+
+footer {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
